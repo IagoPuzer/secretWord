@@ -1,0 +1,44 @@
+:root {
+    font-size: 62.5%;
+}
+
+.start-screen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20rem
+}
+
+.start-screen h1 {
+    font-size: 8rem;
+}
+
+.start-screen button {
+    margin-top: 2rem;
+    box-shadow:inset 0 0 1.5rem 0.3rem #23395e;
+	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
+	background-color:#2e466e;
+	border-radius:1.7rem;
+	border:0.1rem solid #1f2f47;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.5rem;
+	padding:0.6rem 1.3rem;
+	text-decoration:none;
+	text-shadow:0 0.1rem 0 #263666;
+    width: 10rem;
+    height: 4rem;
+}
+
+.start-screen button:hover {
+    background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
+	background-color:#415989;
+}
+
+.start-screen button:active {
+    position:relative;
+	top:0.1rem;
+}

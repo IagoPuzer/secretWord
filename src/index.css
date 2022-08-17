@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background:  linear-gradient(180deg, rgba(76,9,121,1) 21%, rgba(67,8,111,1) 51%, rgba(2,0,36,1) 91%); 
+    color: #fff;
+
+}
