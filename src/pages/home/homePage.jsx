@@ -1,4 +1,4 @@
-import {React ,useCallback, useState, useEffect } from 'react';
+import { React } from 'react';
 import './homePage.css'
 import { useNavigate } from 'react-router-dom';
 
@@ -13,8 +13,8 @@ const Home = () => {
 
   return (
     <div className="start-screen">
-        <h1>Secret Word</h1>
-        <button onClick={handleStartGame}>START</button>
+      <h1>Secret Word</h1>
+      <button onClick={handleStartGame}>START</button>
     </div>
   )
 }
